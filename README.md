@@ -2,7 +2,7 @@
 
 AI-powered spam detection system for Gmail with a modern, animated Chrome extension and Python backend.
 
-**Live Site / API:** [https://inbox-shield-ai.vercel.app/](https://inbox-shield-ai.vercel.app/)
+**Live Site / API:** [https://inbox-shield-ai-lake.vercel.app/](https://inbox-shield-ai-lake.vercel.app/)
 
 **Last Updated:** April 3, 2026
 
@@ -38,7 +38,7 @@ Normal users do **not** need to run Python locally. The backend is already deplo
 
 ### Install the Chrome Extension
 
-1. Open the live install page: [inbox-shield-ai.vercel.app](https://inbox-shield-ai.vercel.app/)
+1. Open the live install page: [inbox-shield-ai-lake.vercel.app](https://inbox-shield-ai-lake.vercel.app/)
 2. Click **Download ZIP**
 3. Extract the ZIP file on your computer
 4. Open Chrome and go to **[chrome://extensions/](chrome://extensions/)**

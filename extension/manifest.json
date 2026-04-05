@@ -3,7 +3,7 @@
   "name": "Inbox Shield AI",
   "version": "1.1",
   "description": "Detects spam emails in Gmail using a deployed AI backend.",
-  "homepage_url": "https://inbox-shield-ai.vercel.app/",
+"homepage_url": "https://inbox-shield-ai-lake.vercel.app/",
   "permissions": ["activeTab", "scripting", "storage", "tabs"],
   "host_permissions": ["https://mail.google.com/*", "http://localhost:8000/*", "https://*.vercel.app/*"],
   "action": {
