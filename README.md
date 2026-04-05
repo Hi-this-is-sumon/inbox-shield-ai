@@ -4,7 +4,7 @@ AI-powered spam detection system for Gmail with a modern, animated Chrome extens
 
 **Live Site / API:** [https://inbox-shield-ai-lake.vercel.app/](https://inbox-shield-ai-lake.vercel.app/)
 
-**Last Updated:** April 3, 2026
+**Last Updated:** December 2024
 
 ## Features
 
