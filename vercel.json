@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "experimentalServices": {
+    "frontend": {
+      "entrypoint": "./",
+      "routePrefix": "/"
+    },
+    "backend": {
+      "entrypoint": "backend",
+      "routePrefix": "/_/backend"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.py"
+    }
+  ]
+}
