@@ -38,7 +38,7 @@ Normal users do **not** need to run Python locally. The backend is already deplo
 
 ### Install the Chrome Extension
 
-1. Open the live install page: [spam-mail-detector-kappa.vercel.app](https://spam-mail-detector-kappa.vercel.app/)
+1. Open the live install page: [inbox-shield-ai.vercel.app](https://inbox-shield-ai.vercel.app/)
 2. Click **Download ZIP**
 3. Extract the ZIP file on your computer
 4. Open Chrome and go to **[chrome://extensions/](chrome://extensions/)**
@@ -124,7 +124,7 @@ Server will run on [http://127.0.0.1:8000](http://127.0.0.1:8000)
 ## Project Structure
 
 ```
-Gmail-Spam-Detection-/
+Inbox-Shield-AI/
 ├── api/
 │   └── index.py                 # Vercel entry point
 ├── backend/
@@ -142,10 +142,10 @@ Gmail-Spam-Detection-/
 │   │   └── index.html           # Landing page HTML
 │   ├── app.py                   # FastAPI server
 │   ├── requirements.txt         # Backend Python dependencies
-│   ├── README_backend.md        # Backend notes
+│   │   └── README_backend.md    # Backend notes
 │   └── verify_model.py          # Model testing
 ├── extension/
-│   ├── assets/                  # Icons
+│   ├── assets/                  # Icons (icon16/48/128.png)
 │   ├── utils/
 │   │   └── domParser.js         # Gmail DOM helper
 │   ├── manifest.json            # Extension config
@@ -157,6 +157,7 @@ Gmail-Spam-Detection-/
 ├── requirements.txt             # Root deployment dependencies
 ├── vercel.json                  # Vercel deployment config
 ├── LICENSE
+├── .gitignore
 └── README.md
 ```
 
